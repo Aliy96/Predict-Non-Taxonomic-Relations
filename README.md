@@ -36,7 +36,7 @@ The project uses the Gene Ontology (GO) relation dataset with the following char
 - **Relation Types**: 7 different relationship categories
 
 ### Relation Distribution:
-![Go Distribution](Go Distribution.png?raw=true "Go Distribution")
+![Go Distribution](Go_Distribution.png?raw=true "Go Distribution")
 - `part of`: 7,637 samples (43.0%)
 - `regulates`: 3,329 samples (18.7%)
 - `positively regulates`: 2,903 samples (16.3%)
