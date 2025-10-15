@@ -34,9 +34,14 @@ The project uses the Gene Ontology (GO) relation dataset with the following char
 - **Training Set**: 10,538 samples
 - **Test Set**: 7,234 samples
 - **Relation Types**: 7 different relationship categories
+- 
+### Dataset Source
 
+- This dataset was obtained from the **LLMs4OL Challenge 2024** - Task C: Non-Taxonomic Relation Extraction, specifically SubTask C.2 (Few-Shot) for Gene Ontology relations. The dataset is part of a research competition focused on Large Language Models for Ontology Learning.
+
+**Source**: [LLMs4OL Challenge 2024 - SubTask C.2(FS) - GO](https://github.com/sciknoworg/LLMs4OL-Challenge/tree/main/2024/TaskC-Non-Taxonomic%20Relation%20Extraction/SubTask%20C.2(FS)%20-%20GO)
 ### Relation Distribution:
-![Go Distribution](Go_Distribution.png?raw=true "Go Distribution")
+
 - `part of`: 7,637 samples (43.0%)
 - `regulates`: 3,329 samples (18.7%)
 - `positively regulates`: 2,903 samples (16.3%)
@@ -45,6 +50,7 @@ The project uses the Gene Ontology (GO) relation dataset with the following char
 - `occurs in`: 197 samples (1.1%)
 - `happens during`: 13 samples (0.1%)
 
+![Go Distribution](Go_Distribution.png?raw=true "Go Distribution")
 ## 🚀 Installation
 
 ### Prerequisites
@@ -125,13 +131,6 @@ pip install imbalanced-learn
 2. **Class Imbalance Impact**: The dataset shows significant class imbalance, affecting minority class performance
 3. **BioBERT Effectiveness**: Pre-trained biomedical embeddings provide strong baseline performance
 4. **Ensemble Benefits**: Multi-strategy approaches consistently outperform single-method approaches
-
-## 📚 References
-
-- [BioBERT: a pre-trained biomedical language representation model](https://arxiv.org/abs/1901.08746)
-- [Gene Ontology](http://geneontology.org/)
-- [Sentence Transformers](https://www.sbert.net/)
-- [Scikit-learn](https://scikit-learn.org/)
 
 ## 📞 Contact
 
